@@ -29,13 +29,14 @@ html,body {
   width: 250px;
   height: 500px;
   border: 2px solid black;
-  
-  border-radius: 20px;
- 
-  text-transform: uppercase;
+    border-radius: 20px;
+   text-transform: uppercase;
   z-index: 5;
+  background-color: rgb(78, 70, 70);
+  opacity: 0.4;
   }
   .lista_empresas > h3 {
+    -webkit-text-fill-color: rgb(235, 235, 241);
     top: 5vh;
     text-align: center;
    font-size: small;
@@ -44,7 +45,7 @@ html,body {
     border-bottom: 3px solid lightblue;
   }
 
-  .lista_empresas > img{
+  .lista_empresas > logo{
       max-heith: 100%;
       height: auto;
     
